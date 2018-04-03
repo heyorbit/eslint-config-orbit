@@ -7,6 +7,7 @@ module.exports = {
   ],
   "rules": {
     // js code rules
+    "no-var": "error",
     "import/no-named-as-default": "off",
     "no-console": ["error", { allow: ["warn", "error"] }],
     "no-unused-expressions": 0,
