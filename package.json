@@ -24,6 +24,10 @@
   "homepage": "https://github.com/heyorbit/eslint-config-orbit#readme",
   "peerDependencies": {
     "eslint": ">= 4.18.0",
-    "eslint-config-react-app": "^2.1.0"
+    "eslint-config-react-app": "^2.1.0",
+    "eslint-plugin-react": "^7.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-flowtype": "^2.46.3"
   }
 }
