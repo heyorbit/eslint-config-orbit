@@ -2,10 +2,12 @@ module.exports = {
   "extends": ["react-app"],
   "plugins": [
     "react",
-    "jsx-a11y",
     "import"
   ],
   "rules": {
+    //jsx workarounds
+    "jsx-a11y/href-no-hash": "off",
+    "jsx-a11y/anchor-is-valid": ["warn", { "aspects": ["invalidHref"] }],
     // js code rules
     "no-var": "error",
     "import/no-named-as-default": "off",
