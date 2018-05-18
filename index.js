@@ -32,6 +32,8 @@ module.exports = {
     }],
     "object-property-newline": ["error", { "allowMultiplePropertiesPerLine": true }],
     "object-curly-newline": ["error", { "multiline": true, "consistent": true }],
+    "comma-spacing": ["error", { "before": false, "after": true }],
+    "brace-style": "error",
     // React lint rules
     "react/prop-types": ["error", {
       "ignore": ["t", "className", "classes", "children"]
