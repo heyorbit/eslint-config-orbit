@@ -34,7 +34,54 @@ module.exports = {
     "object-curly-newline": ["error", { "multiline": true, "consistent": true }],
     "comma-spacing": ["error", { "before": false, "after": true }],
     "brace-style": "error",
+    "arrow-spacing": "error",
+    "prefer-const": "error",
+    "padding-line-between-statements": [
+        "error",
+        {
+            "blankLine": "always",
+            "prev": "*",
+            "next": [
+                "class",
+                "const",
+                "let",
+                "var",
+                "return"
+            ]
+        },
+        {
+            "blankLine": "always",
+            "prev": [
+                "class",
+                "const",
+                "export",
+                "let",
+                "var"
+            ],
+            "next": "*"
+        },
+        {
+            "blankLine": "never",
+            "prev": ["let", "var"],
+            "next": ["let", "var"]
+        },
+        {
+            "blankLine": "any",
+            "prev": ["const"],
+            "next": ["const"]
+        },
+    ],
     // React lint rules
+    "react/jsx-no-bind": ["error", {
+      "allowArrowFunctions": true,
+      "allowBind": false,
+      "ignoreRefs": true
+    }],
+    "react/no-did-update-set-state": "error",
+    "react/no-unknown-property": "error",
+    "react/no-unused-prop-types": "error",
+    "react/prop-types": "error",
+    "react/react-in-jsx-scope": "error",
     "react/prop-types": ["error", {
       "ignore": ["t", "className", "classes", "children"]
     }],
