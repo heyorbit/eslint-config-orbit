@@ -71,6 +71,8 @@ module.exports = {
             "next": ["const"]
         },
     ],
+    "key-spacing": "error",
+    "no-multi-spaces": "error",
     // React lint rules
     "react/jsx-no-bind": ["error", {
       "allowArrowFunctions": true,
