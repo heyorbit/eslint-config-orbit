@@ -1,5 +1,6 @@
 # Orbit eslint configuration
-[Orbit](www.heyorbit.com) rules for [eslint](https://eslint.org)
+
+[Orbit](http://www.orbitdigital.de) rules for [eslint](https://eslint.org)
 
 ### Usage
 
