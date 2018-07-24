@@ -98,11 +98,7 @@ module.exports = {
     'react/no-find-dom-node': ['error'],
     'react/default-props-match-prop-types': ['error'],
     'react/jsx-first-prop-new-line': ['error', 'multiline-multiprop'],
-    'react/jsx-max-props-per-line': [
-      'error',
-      { maximum: 2, when: 'always' },
-      { maximum: 1, when: 'multiline' },
-    ],
+    'react/jsx-max-props-per-line': ['error', { maximum: 1, when: 'always' }],
     'react/jsx-closing-tag-location': ['error'],
     'react/jsx-closing-bracket-location': ['error'],
     'react/boolean-prop-naming': 'error',
