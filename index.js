@@ -105,6 +105,7 @@ module.exports = {
     ],
     'react/jsx-closing-tag-location': ['error'],
     'react/jsx-closing-bracket-location': ['error'],
+    'react/boolean-prop-naming': 'error',
   },
   globals: {
     document: true,
