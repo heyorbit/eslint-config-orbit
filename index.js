@@ -101,6 +101,15 @@ module.exports = {
     'react/jsx-max-props-per-line': ['error', { maximum: 1, when: 'always' }],
     'react/jsx-closing-tag-location': ['error'],
     'react/jsx-closing-bracket-location': ['error'],
+    'react/jsx-sort-props': [
+      'error',
+      {
+        shorthandFirst: true,
+        callbacksLast: true,
+        reservedFirst: true,
+        noSortAlphabetically: true,
+      },
+    ],
     'react/boolean-prop-naming': 'error',
     'react/jsx-handler-names': 'error',
   },
