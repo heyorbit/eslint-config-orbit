@@ -69,6 +69,7 @@ module.exports = {
     'key-spacing': 'error',
     'no-multi-spaces': 'error',
     'no-multiple-empty-lines': 'error',
+    'space-infix-ops': 'error',
     // React lint rules
     'react/jsx-no-bind': [
       'error',
