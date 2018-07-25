@@ -112,7 +112,13 @@ module.exports = {
       },
     ],
     'react/boolean-prop-naming': 'error',
-    'react/jsx-handler-names': 'error',
+    'react/jsx-handler-names': [
+      'warn',
+      {
+        eventHandlerPrefix: '(handle|navigateTo|do|init)',
+        eventHandlerPropPrefix: '(on)',
+      },
+    ],
   },
   globals: {
     document: true,
