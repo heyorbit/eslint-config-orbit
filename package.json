@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-orbit",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "Orbit (www.orbitdigital.com) rules for eslint",
   "main": "index.js",
   "scripts": {
