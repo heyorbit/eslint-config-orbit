@@ -70,7 +70,7 @@ module.exports = {
     'no-multi-spaces': 'error',
     'no-multiple-empty-lines': 'error',
     'space-infix-ops': 'error',
-    'eslint operator-linebreak': ['error', 'before'],
+    'eslint operator-linebreak': ['error', 'after'],
     // React lint rules
     'react/jsx-no-bind': [
       'error',
