@@ -101,7 +101,7 @@ module.exports = {
     'react/jsx-first-prop-new-line': ['error', 'multiline-multiprop'],
     'react/jsx-max-props-per-line': ['error', { maximum: 1, when: 'always' }],
     'react/jsx-closing-tag-location': ['error'],
-    'react/jsx-closing-bracket-location': ['error'],
+    'react/jsx-closing-bracket-location': [1, 'line-aligned'],
     'react/jsx-sort-props': [
       'error',
       {
